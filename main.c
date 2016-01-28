@@ -20,6 +20,8 @@ static char const cvsid[] = "$Id: main.c,v 2.2 2005/06/27 16:56:56 hammes Exp $"
 #include <libmap.h>
 #include <stdlib.h>
 
+#define MAX_OBM_SIZE 512000
+
 
 void subr (float f_arr[], double d_arr[], float f_res[], double d_res[], int m, int64_t *tm, int mapnum);
 
